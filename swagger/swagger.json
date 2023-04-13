@@ -1,0 +1,19 @@
+{
+    "swaggerDefinition": {
+      "info": {
+        "title": "Réservation de billets de train",
+        "version": "1.0.0",
+        "description": "Réservation de billets de train api documentation",
+        "contact": {
+          "name": "Mario"
+        },
+        "servers": [
+          "http://localhost:8080"
+        ]
+      }
+    },
+    "apis": [
+      "app.js",
+      "./routes/*.js"
+    ]
+  }
